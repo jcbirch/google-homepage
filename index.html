@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="reset.css" />
         <link rel="stylesheet" href="style.css" />
         <title>Google</title>
     </head>
@@ -13,9 +14,26 @@
             <div id="tnav-right">
                 <a class="top-nav" href="">Gmail</a>
                 <a class="top-nav" href="">Images</a>
-                <a class="top-nav" href="">Apps</a>
-                <a class="top-nav" href="">Sign In</a>
+                <a class="top-nav" id="app" role="button" href=""></a>
+                <a class="top-nav" id="sin" href="">Sign In</a>
             </div>
         </div>
+
+        <div id="lcontrol">
+            <img id="logo" 
+            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        </div>
+
+        <div class="sbox">
+            <input class="sfield" type="text" name="Search">
+            <a href="#">
+                <img class="mic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png">
+            </a>
+        </div>
+        <div class="submit-buttons">
+            <input value="Google Search" class="google-search" type="submit">
+            <input value="I'm Feeling Lucky" class="feeling-lucky" type="submit">
+        </div>
+
     </body>
 </html>

@@ -1,8 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #tnav {
     display: flex;
     justify-content: space-between;
+    font-size: 13px;
+    margin-top: 25px;
 }
-
 
 .top-nav {
     text-decoration: none;
@@ -15,8 +20,124 @@
 
 #tnav-left {
     padding-left: 15px;
+    padding-top: 10px;
+    opacity: 0.75;
 }
 
 #tnav-right {
     padding-right: 30px;
 }
+
+#logo {
+    height: 92px;
+    width: 272;
+    padding-top: 109px;
+    margin-bottom: 20px;
+}
+
+#lcontrol {
+    display: flex;
+    justify-content: center;
+}
+
+#sin {
+    display: inline-block;
+    background: #4285f4;
+    text-decoration: none;
+    cursor: default;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    padding: 0 12px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+#app {
+    background-image: url(http://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    opacity: .55;
+}
+
+#app:hover {
+    opacity: initial;
+}
+
+.sbox {
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
+
+.sbox:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+
+.sbox:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+
+.sfield {
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    margin-left: 25px;
+  }
+
+.mic {
+    height:20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+  }
+
+  .submit-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+  }
+
+  .google-search {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .feeling-lucky {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
